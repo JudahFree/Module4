@@ -1,0 +1,108 @@
+html {
+    height: 100%;
+}
+h1 {
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-wrap: wrap;
+}
+h2 {
+    font-family: "Playwrite IT Moderna", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-wrap: wrap;
+}
+p {
+    font-family: "Baskervville", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-wrap: wrap;
+}
+.resume {
+    margin: 0;
+    border: 5px solid rgb(104, 24, 143);
+    background-color: rgba(255, 195, 195, 0.3);
+}
+.btn {
+    border-radius: 5px;
+    background-color: rgb(104, 24, 143);
+    padding: 5px;
+
+    a {
+        font-style: normal;
+        text-decoration: none;
+        color: white;
+    }
+
+}
+header {
+    padding: 10px;
+    background-color: rgb(104, 24, 143);
+    text-align: center;
+
+    h1 { 
+        color: wheat;
+        font-size: 75px;
+        margin-top: -15px;
+        margin-bottom: -10px;
+        text-decoration: underline;
+    }
+    h2 {
+        color: rgb(200, 200, 200);
+    }
+    p {
+        color: white;
+        text-align: justify;
+        margin: 0 auto;
+        width: 900px;
+        padding-bottom: 5px;
+    }
+}
+.content-wrapper {
+    margin: 0 auto;
+    width: 900px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    background-image: url("../images/Logo_Lemon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+
+    h1 {
+        font-size: 50px;
+        margin-bottom: -10px;
+        margin-top: -1px;
+    }
+    img {
+        width: 35%;
+        position: relative;
+        box-shadow: 3px 3px 3px black;
+        border: 2px solid rgb(104, 24, 143);
+    }
+    #projects, #work, #education {
+        background-color: rgb(247, 222, 178, 0.8);
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    ul {
+        list-style: circle;
+    }
+}
+footer {
+    background-color: rgb(104, 24, 143);
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    h2 {
+        text-align: center;
+        font-style: italic;
+        color: white;
+    }
+    ul {
+        display: flex;
+        list-style: none;
+        justify-content: space-around;
+    }
+}
